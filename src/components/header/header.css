@@ -1,0 +1,17 @@
+.header__portfolio{
+    width: 100%;
+    height: 4em;
+    position: relative;
+}
+.header__portfolio .header__navbar__portfolio{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__navbar__portfolio .logo__header .logo{
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 2px;
+}

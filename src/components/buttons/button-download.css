@@ -1,0 +1,9 @@
+.btn__download {
+    padding: .9rem 3em;
+    max-width: 160px;
+    display: inline-block;
+    font-size: .8em;
+    background: #050505;
+    color: #ffffff;
+    border-radius: .5em;
+}
