@@ -23,7 +23,11 @@ function BtnMenu() {
     
     // Alternar el estado para la próxima vez
     setIsInitialImage(!isInitialImage);
+
     };
+
+    let links = document.querySelectorAll(".item");
+    links.forEach(linkItem => linkItem.addEventListener("click",handleClick));
 
     return (
         <div className="btn__mobile__menu">
