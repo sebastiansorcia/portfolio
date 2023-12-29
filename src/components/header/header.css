@@ -1,7 +1,10 @@
 .header__portfolio{
     width: 100%;
     height: 4em;
-    position: relative;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
 }
 .header__portfolio .header__navbar__portfolio{
     height: 100%;

@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 :root{
   --background-body:hsl(0, 0%, 100%);
@@ -11,9 +12,13 @@ body{
   background: var(--background-body);
   font-family: 'Poppins', sans-serif;
   height: 100vh;
+  padding-top: 4em;
 }
 section{
   min-height: 100%;
+}
+section[id]{
+  scroll-margin-top: 4em;
 }
 button,input{
   border: none;
