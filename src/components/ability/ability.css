@@ -1,0 +1,15 @@
+.box__content{
+    width: 100%;
+}
+.flex__skillis{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2em;
+    padding: 4em 0;
+}
+.flex__skillis .card img{
+    max-width: 80px;
+    margin: 0 auto;
+    display: block;
+}
