@@ -7,6 +7,7 @@
 }
 :root{
   --background-body:hsl(0, 0%, 100%);
+  --background-header:hsl(0, 0%, 100%);
 }
 body{
   background: var(--background-body);
@@ -43,4 +44,10 @@ ul,li{
   width: 90%;
   max-width: 1200px;
   margin: 0 auto;
+}
+.subtitle__section .subtitle{
+  font-size: 1.7em;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 1em;
 }
